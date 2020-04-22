@@ -6,3 +6,13 @@
 .active {
   background-color: #0c5460;
 }
+
+table, th , td  {
+  border: 1px solid green;
+  
+  padding: 10px;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
