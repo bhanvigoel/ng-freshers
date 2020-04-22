@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
+public greatUser=""
+
+getVal(item){
+this.greatUser="Welcome "+item.target.value+" !";
+}
 
 }
